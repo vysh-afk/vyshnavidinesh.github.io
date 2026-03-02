@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+#  Personal Portfolio Website
 
 Welcome to my personal portfolio website repository.
 
@@ -6,7 +6,7 @@ This website showcases my projects, technical skills, and professional experienc
 
 ---
 
-## 👩‍💻 About Me
+##  About Me
 
 I am an Artificial Intelligence student with a minor in Embedded Systems, passionate about developing intelligent and technology-driven solutions for real-world applications.
 
@@ -16,7 +16,7 @@ My interests include Machine Learning, Deep Learning, Natural Language Processin
 
 ---
 
-## 🚀 Portfolio Features
+##  Portfolio Features
 
 * AI & Software Project Showcase
 * Technical Skills & Tools
@@ -26,7 +26,7 @@ My interests include Machine Learning, Deep Learning, Natural Language Processin
 
 ---
 
-## 🛠️ Technical Skills
+##  Technical Skills
 
 ### Programming Languages
 
@@ -59,23 +59,25 @@ My interests include Machine Learning, Deep Learning, Natural Language Processin
 
 ---
 
-## 🌍 Live Website
+##  Live Website
 
  https://vysh-afk.github.io
 
 
 ---
 
-## 📂 Repository Purpose
+##  Repository Purpose
 
 This repository contains the source code for my personal portfolio website hosted using GitHub Pages.
 
 ---
 
-## 📫 Contact
+##  Contact
 
 📧 Email: vyshnavidinesh494@gmail.com
+
 💻 GitHub: https://github.com/vysh-afk
+
 🔗 LinkedIn: https://www.linkedin.com/in/vyshnavi-dinesh-347349289/
 
 ---
