@@ -20,9 +20,7 @@ const isDark = () => body.classList.contains('dark');
 const setTheme = (bodyClass, btnClass) => {
   body.classList.remove(localStorage.getItem('portfolio-theme'));
   btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'));
-
   addThemeClass(bodyClass, btnClass);
-
   localStorage.setItem('portfolio-theme', bodyClass);
   localStorage.setItem('portfolio-btn-theme', btnClass);
 }
@@ -38,7 +36,6 @@ btnTheme.addEventListener('click', toggleTheme);
 // =====================
 const displayList = () => {
   const navUl = document.querySelector('.nav__list');
-
   if (btnHamburger.classList.contains('fa-bars')) {
     btnHamburger.classList.remove('fa-bars');
     btnHamburger.classList.add('fa-times');
@@ -57,11 +54,7 @@ if(btnHamburger) btnHamburger.addEventListener('click', displayList);
 // =====================
 const scrollUp = () => {
   const btnScrollTop = document.querySelector('.scroll-top');
-
-  if (
-    body.scrollTop > 500 ||
-    document.documentElement.scrollTop > 500
-  ) {
+  if (body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     if(btnScrollTop) btnScrollTop.style.display = 'block';
   } else {
     if(btnScrollTop) btnScrollTop.style.display = 'none';
@@ -73,14 +66,14 @@ document.addEventListener('scroll', scrollUp);
 // =====================
 // GitHub Projects Fetch
 // =====================
-const githubUsername = "vysh-afk"; // your GitHub username
+const githubUsername = "vysh-afk"; 
 const projectsContainer = document.getElementById("github-projects");
 
 if(projectsContainer){
   fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated`)
     .then(res => res.json())
     .then(repos => {
-      repos.slice(0, 6).forEach(repo => { // show latest 6 repos
+      repos.slice(0, 6).forEach(repo => {
         const projectCard = document.createElement("div");
         projectCard.className = "project";
         projectCard.innerHTML = `
